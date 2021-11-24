@@ -1,6 +1,10 @@
 import React from 'react'
 
-function index() {
+function Horoscope() {
+    /*const[currentHoroscope, setCurrentHoroscope] = useState([]); 
+    function handleCurrentHoroscope () {
+        
+    } */
     return (
         <div>
             <div className="sign-info">
@@ -26,4 +30,4 @@ function index() {
     )
 }
 
-export default index
+export default Horoscope;
