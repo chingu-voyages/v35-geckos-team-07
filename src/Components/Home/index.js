@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 //import Horoscope from './Horoscope/index.js';
 import '../../App.css'
 import Container from 'react-bootstrap/Container';
@@ -17,29 +17,42 @@ import capricorn_icon from '../../assets/capricorn_icon.png';
 import aquarius_icon from '../../assets/aquarius_icon.png';
 import pisces_icon from '../../assets/pisces_icon.png';
 
-function Home() {    
+function Home({setCurrent, components}) {    
     const [currentHoroscopeData, setCurrentHoroscopeData] = useState();
     const [sign, setSign] = useState('');
+    
+
     useEffect( () => {
-        fetch("https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=aries&day=today", {
-            "method": "POST",
-            "headers": {
-                "x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
-                "x-rapidapi-key": "c69ac320d9msh4f92145a07ef9a5p11a204jsnffcc7b05808d"
-            }
-        })
-        .then(response => {
-            console.log(sign);
-            return response.json();
-        })
-        .then(data => {
-            console.log('data', data);
-            setCurrentHoroscopeData(data);
-        })
-        .catch(err => {
-            console.error(err);
-        });
-    }, [])
+        if (sign !='') {
+            fetch(`https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=${sign}&day=today`, {
+                "method": "POST",
+                "headers": {
+                    "x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
+                    "x-rapidapi-key": "c69ac320d9msh4f92145a07ef9a5p11a204jsnffcc7b05808d"
+                }
+            })
+            .then(response => {
+                console.log(sign);
+                return response.json();
+            })
+            .then(data => {
+                console.log('data', data);
+                setCurrentHoroscopeData(data);
+            })
+            .catch(err => {
+                console.error(err);
+            }); 
+        }
+    }, [])   
+      
+    const handleClick = (event) => {
+        setSign(event.target.id);
+        console.log(sign);
+        updatePage();
+    }
+    const updatePage = () => {
+        setCurrent(components[1]);
+    }
     
     return (
         <Container className="home-container">
@@ -52,7 +65,7 @@ function Home() {
                 <Col className="sign-column" sm={6} lg={4}> 
                     Aries
                     March 21–April 19
-                    <button type="button" onClick={() => setSign('aries') }><img src={aries_icon} alt="aries icon" /></button>
+                    <button type="button" id="aries" onClick={(e) => handleClick(e)}><img src={aries_icon} alt="aries icon" />Button</button>
                 </Col>
                 <Col className="sign-column" sm={6} lg={4}>
                     Taurus

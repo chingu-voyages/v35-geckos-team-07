@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
 
-  const components = [<Home />, <About />,<Developers />]
+  const components = [<Home />, <Horoscope />,<About />,<Developers />]
   const [current, setCurrent] = useState(components[0]);
   return (
     <div className="page-container">
