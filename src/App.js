@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Horoscope from './Components/Horoscope';
+import {BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import "./App.css";
 
 function App() {
@@ -12,17 +13,23 @@ function App() {
   const components = [<Home />, <Horoscope />,<About />,<Developers />]
   const [current, setCurrent] = useState(components[0]);
   return (
-    <div className="page-container">
-      <header>
-        <Header setCurrent={setCurrent} components={components} />
-      </header>
-      <main>
-        {current}
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+    <Router>
+      <div className="page-container">
+        <header>
+          <Header setCurrent={setCurrent} components={components} />
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/horoscope" element={<Horoscope />} />
+          </Routes>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
     </div>
+    </Router>
+   
   );
 }
 
