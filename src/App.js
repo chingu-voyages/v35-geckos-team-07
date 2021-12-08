@@ -9,9 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
+ 
 
-  const components = [<Home />, <Horoscope />,<About />,<Developers />]
-  const [current, setCurrent] = useState(components[0]);
   return (
     <Router>
       <div className="page-container">
@@ -23,7 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/team" element={<Developers />} />
-            <Route path="/horoscope" element={<Horoscope />} />
+            <Route path="/horoscope" element={<Horoscope /> } />
           </Routes>
         </main>
         <footer>

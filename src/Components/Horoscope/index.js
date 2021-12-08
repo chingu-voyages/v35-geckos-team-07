@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 
-function Horoscope(sign) {
-    conslole.log(sign);
+function Horoscope(currentHoroscopeData) {
+    console.log('horoscope', currentHoroscopeData);
     //const [currentHoroscopeData, setCurrentHoroscopeData] = useState();
 
     // useEffect( () => {
@@ -31,7 +31,7 @@ function Horoscope(sign) {
             <div className="sign-info">
             </div>
             <p>Sign Information
-                {sign}
+               
             </p>
 
             <div className="yesterday">

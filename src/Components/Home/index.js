@@ -21,7 +21,7 @@ import pisces_icon from '../../assets/pisces_icon.png';
 
 function Home() {    
     const [currentHoroscopeData, setCurrentHoroscopeData] = useState();
-    const [sign, setSign] = useState('');
+    const [sign, setSign] = useState('`');
     const navigate = useNavigate();
     
 
@@ -50,11 +50,11 @@ function Home() {
       
     const handleClick = (event) => {
         setSign(event.target.id);
-        console.log(sign);
+        console.log("click event", sign);
         updatePage();
     }
     const updatePage = () => {
-        navigate('/horoscope');
+        navigate('/horoscope', {currentHoroscopeData});;
     }
     
     return (
@@ -69,9 +69,7 @@ function Home() {
                     Aries
                     March 21–April 19
                    
-                        <button type="button" id="aries" onClick={(e) => handleClick(e)}><img src={aries_icon} alt="aries icon" />Button</button>
-                
-                   
+                        <button type="button" id="aries" onClick={(e) => handleClick(e)}><img src={aries_icon} alt="aries icon" />Button</button>   
                 </Col>
                 <Col className="sign-column" sm={6} lg={4}>
                     Taurus
