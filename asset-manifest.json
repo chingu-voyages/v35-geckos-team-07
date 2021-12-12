@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/v35-geckos-team-07/static/css/main.a50e402c.chunk.css",
-    "main.js": "/v35-geckos-team-07/static/js/main.aafe856f.chunk.js",
-    "main.js.map": "/v35-geckos-team-07/static/js/main.aafe856f.chunk.js.map",
-    "runtime-main.js": "/v35-geckos-team-07/static/js/runtime-main.91e50cbf.js",
-    "runtime-main.js.map": "/v35-geckos-team-07/static/js/runtime-main.91e50cbf.js.map",
-    "static/js/2.31935d7e.chunk.js": "/v35-geckos-team-07/static/js/2.31935d7e.chunk.js",
-    "static/js/2.31935d7e.chunk.js.map": "/v35-geckos-team-07/static/js/2.31935d7e.chunk.js.map",
-    "static/js/3.43a3efb0.chunk.js": "/v35-geckos-team-07/static/js/3.43a3efb0.chunk.js",
-    "static/js/3.43a3efb0.chunk.js.map": "/v35-geckos-team-07/static/js/3.43a3efb0.chunk.js.map",
+    "main.css": "/v35-geckos-team-07/static/css/main.ae4b1405.chunk.css",
+    "main.js": "/v35-geckos-team-07/static/js/main.7536acb6.chunk.js",
+    "main.js.map": "/v35-geckos-team-07/static/js/main.7536acb6.chunk.js.map",
+    "runtime-main.js": "/v35-geckos-team-07/static/js/runtime-main.1b43e44e.js",
+    "runtime-main.js.map": "/v35-geckos-team-07/static/js/runtime-main.1b43e44e.js.map",
+    "static/js/2.6ff0c996.chunk.js": "/v35-geckos-team-07/static/js/2.6ff0c996.chunk.js",
+    "static/js/2.6ff0c996.chunk.js.map": "/v35-geckos-team-07/static/js/2.6ff0c996.chunk.js.map",
+    "static/js/3.81b1e03e.chunk.js": "/v35-geckos-team-07/static/js/3.81b1e03e.chunk.js",
+    "static/js/3.81b1e03e.chunk.js.map": "/v35-geckos-team-07/static/js/3.81b1e03e.chunk.js.map",
     "index.html": "/v35-geckos-team-07/index.html",
-    "static/css/main.a50e402c.chunk.css.map": "/v35-geckos-team-07/static/css/main.a50e402c.chunk.css.map",
-    "static/js/2.31935d7e.chunk.js.LICENSE.txt": "/v35-geckos-team-07/static/js/2.31935d7e.chunk.js.LICENSE.txt",
+    "static/css/main.ae4b1405.chunk.css.map": "/v35-geckos-team-07/static/css/main.ae4b1405.chunk.css.map",
+    "static/js/2.6ff0c996.chunk.js.LICENSE.txt": "/v35-geckos-team-07/static/js/2.6ff0c996.chunk.js.LICENSE.txt",
     "static/media/background_horoscope.2b06740f.jpg": "/v35-geckos-team-07/static/media/background_horoscope.2b06740f.jpg",
     "static/media/profile_icon.64215f9f.png": "/v35-geckos-team-07/static/media/profile_icon.64215f9f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91e50cbf.js",
-    "static/js/2.31935d7e.chunk.js",
-    "static/css/main.a50e402c.chunk.css",
-    "static/js/main.aafe856f.chunk.js"
+    "static/js/runtime-main.1b43e44e.js",
+    "static/js/2.6ff0c996.chunk.js",
+    "static/css/main.ae4b1405.chunk.css",
+    "static/js/main.7536acb6.chunk.js"
   ]
 }
