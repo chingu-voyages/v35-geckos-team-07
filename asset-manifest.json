@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/chingu-voyages/v35-geckos-team-07.git/static/css/main.32728520.chunk.css",
-    "main.js": "/chingu-voyages/v35-geckos-team-07.git/static/js/main.b1e7c510.chunk.js",
-    "main.js.map": "/chingu-voyages/v35-geckos-team-07.git/static/js/main.b1e7c510.chunk.js.map",
-    "runtime-main.js": "/chingu-voyages/v35-geckos-team-07.git/static/js/runtime-main.00f90588.js",
-    "runtime-main.js.map": "/chingu-voyages/v35-geckos-team-07.git/static/js/runtime-main.00f90588.js.map",
-    "static/js/2.49fa0833.chunk.js": "/chingu-voyages/v35-geckos-team-07.git/static/js/2.49fa0833.chunk.js",
-    "static/js/2.49fa0833.chunk.js.map": "/chingu-voyages/v35-geckos-team-07.git/static/js/2.49fa0833.chunk.js.map",
-    "static/js/3.81b1e03e.chunk.js": "/chingu-voyages/v35-geckos-team-07.git/static/js/3.81b1e03e.chunk.js",
-    "static/js/3.81b1e03e.chunk.js.map": "/chingu-voyages/v35-geckos-team-07.git/static/js/3.81b1e03e.chunk.js.map",
-    "index.html": "/chingu-voyages/v35-geckos-team-07.git/index.html",
-    "static/css/main.32728520.chunk.css.map": "/chingu-voyages/v35-geckos-team-07.git/static/css/main.32728520.chunk.css.map",
-    "static/js/2.49fa0833.chunk.js.LICENSE.txt": "/chingu-voyages/v35-geckos-team-07.git/static/js/2.49fa0833.chunk.js.LICENSE.txt",
-    "static/media/background_horoscope.2b06740f.jpg": "/chingu-voyages/v35-geckos-team-07.git/static/media/background_horoscope.2b06740f.jpg",
-    "static/media/profile_icon.64215f9f.png": "/chingu-voyages/v35-geckos-team-07.git/static/media/profile_icon.64215f9f.png"
+    "main.css": "/v35-geckos-team-07/static/css/main.ae4b1405.chunk.css",
+    "main.js": "/v35-geckos-team-07/static/js/main.56ad0840.chunk.js",
+    "main.js.map": "/v35-geckos-team-07/static/js/main.56ad0840.chunk.js.map",
+    "runtime-main.js": "/v35-geckos-team-07/static/js/runtime-main.1b43e44e.js",
+    "runtime-main.js.map": "/v35-geckos-team-07/static/js/runtime-main.1b43e44e.js.map",
+    "static/js/2.138f1b8e.chunk.js": "/v35-geckos-team-07/static/js/2.138f1b8e.chunk.js",
+    "static/js/2.138f1b8e.chunk.js.map": "/v35-geckos-team-07/static/js/2.138f1b8e.chunk.js.map",
+    "static/js/3.81b1e03e.chunk.js": "/v35-geckos-team-07/static/js/3.81b1e03e.chunk.js",
+    "static/js/3.81b1e03e.chunk.js.map": "/v35-geckos-team-07/static/js/3.81b1e03e.chunk.js.map",
+    "index.html": "/v35-geckos-team-07/index.html",
+    "static/css/main.ae4b1405.chunk.css.map": "/v35-geckos-team-07/static/css/main.ae4b1405.chunk.css.map",
+    "static/js/2.138f1b8e.chunk.js.LICENSE.txt": "/v35-geckos-team-07/static/js/2.138f1b8e.chunk.js.LICENSE.txt",
+    "static/media/background_horoscope.2b06740f.jpg": "/v35-geckos-team-07/static/media/background_horoscope.2b06740f.jpg",
+    "static/media/profile_icon.64215f9f.png": "/v35-geckos-team-07/static/media/profile_icon.64215f9f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.00f90588.js",
-    "static/js/2.49fa0833.chunk.js",
-    "static/css/main.32728520.chunk.css",
-    "static/js/main.b1e7c510.chunk.js"
+    "static/js/runtime-main.1b43e44e.js",
+    "static/js/2.138f1b8e.chunk.js",
+    "static/css/main.ae4b1405.chunk.css",
+    "static/js/main.56ad0840.chunk.js"
   ]
 }
